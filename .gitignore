@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (keep only sample/anonymized)
+data/*.csv
+data/*.xlsx
+data/*.json
+!data/sample_*.csv
+
+# Model files (optional)
+models/*.pkl
+models/*.h5
+
+# Credentials / API keys
+*.json
+*.pem
+*.key
+*.env
+
+# Logs
+*.log
+
+# OS / Editor specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build / dist
+dist/
+build/

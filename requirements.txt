@@ -1,0 +1,22 @@
+# Core
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+
+# Time series
+prophet
+
+# Web app / dashboard
+flask
+
+# Jupyter
+notebook
+jupyter
+
+# API & Utils
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
