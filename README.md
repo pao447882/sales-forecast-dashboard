@@ -29,31 +29,31 @@ The tool empowers SME owners with accurate forecasts, improving inventory and co
 - **Flask + HTML/CSS** (interactive dashboard)  
 - **Jupyter Notebooks** (experiments & EDA)  
 - **Google Sheets API** (data integration)  
-- **Matplotlib/Seaborn** (visualizations)
+- **Matplotlib/Seaborn** (visualizations)  
 
-## Repository Structure
-sales-forecast-dashboard/
-│── data/ # Raw & processed data (sample only, anonymized)
-│── notebooks/ # Jupyter Notebooks (EDA, experiments, models)
-│ ├── 0.1_Preprocess.ipynb
-│ ├── LinearRegression_Phase6_Recursive.ipynb
-│ ├── LinearRegression_Phase6_Direct.ipynb
-│ ├── Prophet_Experiment6.ipynb
-│ ├── Prophet_Experiment7_lag7.ipynb
-│ ├── LogisticRegression_Phase8_Recursive.ipynb
-│ ├── LogisticRegression_Phase8_Direct.ipynb
-│ ├── LogisticRegression_Phase8_lag17.ipynb
-│── dashboard/ # Flask app files
-│ ├── app.py
-│ ├── templates/
-│ │ └── dashboard.html
-│ ├── static/
-│ ├── style.css
-│ └── scripts.js
-│── models/ # Trained models (.pkl files, optional, small only)
-│── requirements.txt # Project dependencies
-│── README.md # Project overview
-│── .gitignore # Ignore sensitive/large files
+## Repository Structure  
+sales-forecast-dashboard/  
+│── data/ # Raw & processed data (sample only, anonymized)  
+│── notebooks/ # Jupyter Notebooks (EDA, experiments, models)  
+│ ├── 0.1_Preprocess.ipynb  
+│ ├── LinearRegression_Phase6_Recursive.ipynb  
+│ ├── LinearRegression_Phase6_Direct.ipynb  
+│ ├── Prophet_Experiment6.ipynb  
+│ ├── Prophet_Experiment7_lag7.ipynb  
+│ ├── LogisticRegression_Phase8_Recursive.ipynb  
+│ ├── LogisticRegression_Phase8_Direct.ipynb  
+│ ├── LogisticRegression_Phase8_lag17.ipynb  
+│── dashboard/ # Flask app files  
+│ ├── app.py  
+│ ├── templates/  
+│ │ └── dashboard.html  
+│ ├── static/  
+│ ├── style.css  
+│ └── scripts.js  
+│── models/ # Trained models (.pkl files, optional, small only)  
+│── requirements.txt # Project dependencies  
+│── README.md # Project overview  
+│── .gitignore # Ignore sensitive/large files  
 
 ## Results
 - Linear Regression (Recursive) → MAE = 1312.15
